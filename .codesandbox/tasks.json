@@ -8,6 +8,11 @@
       "name": "whereis htop",
       "command": "whereis htop",
       "runAtStart": true
+    },
+      "docker container": {
+      "name": "list containers",
+      "command": "docker container ls",
+      "runAtStart": true
     }
   }
 }
